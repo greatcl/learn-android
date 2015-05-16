@@ -12,7 +12,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
-
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 /**
  * Created by caolei on 15/5/14.
  */

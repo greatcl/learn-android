@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ActivityTest</string>
+    <string name="destroy_button">Destroy Button</string>
+    <string name="second_button">Second Button</string>
 </resources>

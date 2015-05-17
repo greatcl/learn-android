@@ -53,7 +53,7 @@ public class FirstActivity extends Activity {
             }
         });
 
-        Log.d("greatcl", this.getClass().getSimpleName());
+        Log.d("greatcl", this.getClass().getSimpleName() );
     }
 
     @Override

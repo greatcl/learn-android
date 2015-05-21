@@ -13,10 +13,33 @@
         android:textSize="24sp"
         android:textColor="#00ff00"/>
 
+    <EditText
+        android:id="@+id/my_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="something easy"
+        android:minLines="2"
+        android:maxLines="3"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+
     <Button
         android:id="@+id/my_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My button"/>
+
+
 
 </LinearLayout>
